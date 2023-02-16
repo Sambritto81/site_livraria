@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: aqua;
+    color: black;
+} 
+
+header,
+section h2,
+section h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color :black;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 45%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+}
+
+.brands-list img {
+    width: 60px;
+    
+}
+
+.brands-list li {
+    display: inline;
+    margin: 16px;
+
+}
+section p {
+    margin: 16px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .container {
+    display: block ;
+}
+
+.container {
+    margin-top: 12px;
+}
+
+.social-links img {
+    height: 18px;
+}
+
+form input,
+form textarea,
+form button {
+ display: block;
+ width: 320px;
+ margin-bottom: 8px;
+ padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right : 8px;
+}
+
+form button:hover {
+    background-color:rgb(140, 234, 140);
+  }
+
+  section h2, h3,h1{
+    color: rgb(5, 5, 94);
+  }
+
+  section {
+    background-color: rgb(250, 248, 245);
+  }
